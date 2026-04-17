@@ -11,4 +11,4 @@ jobs:
       board: '["nice_nano_v2"]'
       nav: '["vi"]'
       shield: '["corne_left nice_view_adapter nice_view","corne_right nice_view_adapter nice_view"]'
-      kconfig: '["CONFIG_ZMK_POINTING=y"]'
+      kconfig: '["CONFIG_ZMK_POINTING=y\nCONFIG_ZMK_SLEEP=y"]'
